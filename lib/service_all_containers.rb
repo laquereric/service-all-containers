@@ -3,10 +3,10 @@
 require_relative "service_all_containers/version"
 
 require "service_id"
-require "rayswarm_mermaid"
-require "puml_work"
+require "service_mermaid"
+require "service_puml"
 require "service_rubygems"
-require "rayswarm_switch"
+require "service_switch"
 
 module ServiceAllContainers
   class Error < StandardError; end
