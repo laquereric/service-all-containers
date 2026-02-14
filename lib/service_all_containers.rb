@@ -2,7 +2,7 @@
 
 require_relative "service_all_containers/version"
 
-require "magentic_id"
+require "service_id"
 require "rayswarm_mermaid"
 require "puml_work"
 require "service_rubygems"
